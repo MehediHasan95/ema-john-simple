@@ -1,0 +1,38 @@
+.product-card {
+  /* border: 1px solid gray; */
+  width: 320px;
+  height: 510px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  margin: 25px 0;
+}
+
+.img-area img {
+  width: 320px;
+  height: 300px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.details {
+  padding: 10px;
+}
+
+.details p {
+  line-height: 5px;
+}
+
+.addToCart-btn {
+  width: 100%;
+  padding: 8px 0;
+  background-color: #ffe0b3;
+  border: none;
+  /* border-top: 1px solid grey; */
+  position: absolute;
+  bottom: 0;
+}
+
+.addToCart-btn:hover {
+  background-color: #ffa318;
+}
